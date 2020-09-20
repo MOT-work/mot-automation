@@ -1,0 +1,9 @@
+D:\mot-automation\Framework\bin\Debug\netcoreapp2.1\Framework.deps.json
+D:\mot-automation\Framework\bin\Debug\netcoreapp2.1\Framework.dll
+D:\mot-automation\Framework\bin\Debug\netcoreapp2.1\Framework.pdb
+D:\mot-automation\Framework\obj\Debug\netcoreapp2.1\Framework.csprojAssemblyReference.cache
+D:\mot-automation\Framework\obj\Debug\netcoreapp2.1\Framework.AssemblyInfoInputs.cache
+D:\mot-automation\Framework\obj\Debug\netcoreapp2.1\Framework.AssemblyInfo.cs
+D:\mot-automation\Framework\obj\Debug\netcoreapp2.1\Framework.csproj.CoreCompileInputs.cache
+D:\mot-automation\Framework\obj\Debug\netcoreapp2.1\Framework.dll
+D:\mot-automation\Framework\obj\Debug\netcoreapp2.1\Framework.pdb

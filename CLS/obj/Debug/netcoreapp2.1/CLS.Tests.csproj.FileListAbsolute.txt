@@ -1,0 +1,4 @@
+D:\mot-automation\CLS\obj\Debug\netcoreapp2.1\CLS.Tests.csprojAssemblyReference.cache
+D:\mot-automation\CLS\obj\Debug\netcoreapp2.1\CLS.Tests.AssemblyInfoInputs.cache
+D:\mot-automation\CLS\obj\Debug\netcoreapp2.1\CLS.Tests.AssemblyInfo.cs
+D:\mot-automation\CLS\obj\Debug\netcoreapp2.1\CLS.Tests.csproj.CoreCompileInputs.cache
