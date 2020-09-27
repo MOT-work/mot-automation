@@ -1,0 +1,5 @@
+Starting timestamp: 9/22/2020 9:51:17 AM
+Test: Secretary_Save_case_with_fill_all_fields
+[INFO]: Browser: chrome
+    [STEP]: Navigate to https://watch.na.lolesports.com/standings
+[INFO]: Close Browser
