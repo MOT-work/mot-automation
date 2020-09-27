@@ -17,6 +17,7 @@ namespace Tests
             Pages.AddCase.ClickCard("Regular Season");
             //Pages.AddCase.SaveCaseWithoutFill();
             //Assert.That(Pages.ServiceStatus.ServiceOnline("Game"));
+            //update
         }
 
         [Test, Parallelizable, Category("AddCase")]
