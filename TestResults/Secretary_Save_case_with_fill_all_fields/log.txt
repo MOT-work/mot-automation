@@ -1,5 +1,6 @@
-Starting timestamp: 9/22/2020 9:51:17 AM
+Starting timestamp: 9/28/2020 12:44:50 PM
 Test: Secretary_Save_case_with_fill_all_fields
 [INFO]: Browser: chrome
-    [STEP]: Navigate to https://watch.na.lolesports.com/standings
+    [STEP]: Navigate to https://stg-webapps.mot.gov.sa/CLS/Case
+    [STEP]: Click Add Cases Link
 [INFO]: Close Browser

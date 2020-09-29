@@ -18,8 +18,8 @@ namespace CLS.Pages
 
         public static void Goto()
         {
-            //Driver.Goto("https://stg-webapps.mot.gov.sa/CLS");
-            Driver.Goto("https://watch.na.lolesports.com/standings");
+            Driver.Goto("https://stg-webapps.mot.gov.sa/CLS/Case");
+            //Driver.Goto("https://watch.na.lolesports.com/standings");
             //Driver.Wait.Until(driver => ViewCase.Map.SearchTextbox.Displayed);
         }
     }

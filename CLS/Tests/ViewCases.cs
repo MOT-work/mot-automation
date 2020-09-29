@@ -9,7 +9,7 @@ namespace Tests
     [TestFixture, Parallelizable]
     public class ViewCases : TestBase
     {
-        [Test, Parallelizable, Category("ViewCases")]
+       /* [Test, Parallelizable, Category("ViewCases")]
         public void Laywer_view_cases()
         {
             Pages.Goto();
@@ -17,6 +17,6 @@ namespace Tests
             Pages.AddCase.ClickCard("Regular Season");
             //Pages.AddCase.SaveCaseWithoutFill();
             //Assert.That(Pages.ServiceStatus.ServiceOnline("Game"));
-        }
+        }*/
     }
 }

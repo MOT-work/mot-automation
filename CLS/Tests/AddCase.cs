@@ -14,8 +14,10 @@ namespace Tests
         {
             Pages.Goto();
             Pages.AddCase.Goto();
-            Pages.AddCase.ClickCard("Regular Season");
-            //Pages.AddCase.SaveCaseWithoutFill();
+            Pages.AddCase.SaveCaseWithoutFill();
+             Assert.That(Pages.AddCase.Map.CheckMandatoryField.Displayed);
+            //Assert.AreEqual("هذا الحقل مطلوب");
+           // Pages.AddCase.ClickCard("Regular Season");
             //Assert.That(Pages.ServiceStatus.ServiceOnline("Game"));
             //update
         }
@@ -25,15 +27,22 @@ namespace Tests
         {
             Pages.Goto();
             Pages.AddCase.Goto();
-            Pages.AddCase.ClickCard("Playoffs");
+            Pages.AddCase.SaveCaseWithFillFields("14420202", "قضية مرفوعة ضد الوزارة" , "148ا", "23943", "2", "2", "قضية", "2", "2","2", 23);
         }
 
         [Test, Parallelizable, Category("AddCase")]
-        public void AddCasetest()
+        public void Add_Case_As_Draft()
         {
             Pages.Goto();
             Pages.AddCase.Goto();
-            //Pages.AddCase.SaveCase1(,,,,,,);
+            Pages.AddCase.SaveCaseAsDraft("2", "7567", "3", "قضية 11");
+        }
+         [Test, Parallelizable, Category("AddCase")]
+        public void Close_Case()
+        {
+            Pages.Goto();
+            Pages.AddCase.Goto();
+            Pages.AddCase.CloseCase();
         }
 
 
