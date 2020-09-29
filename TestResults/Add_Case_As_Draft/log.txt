@@ -1,5 +1,5 @@
-Starting timestamp: 9/28/2020 12:44:50 PM
-Test: Secretary_Save_case_with_fill_all_fields
+Starting timestamp: 9/29/2020 1:38:47 PM
+Test: Add_Case_As_Draft
 [INFO]: Browser: chrome
     [STEP]: Navigate to https://stg-webapps.mot.gov.sa/CLS/Case
     [STEP]: Click Add Cases Link

@@ -7,15 +7,11 @@ namespace CLS.Pages
     {
         public readonly AddCasePageMap Map;
 
-        public AddCasePage Goto()
+         public void Goto()
         {
-              
-            // Driver.Wait.Until(WaitConditions.ElementIsDisplayed()
-            CLSMenu.GotoAddCasePage();
-           
-            return this;
+            Driver.Wait.Until(drvr=>CLSMenu.Map.AddCasesLink.Clickable);
+            CLSMenu.Map.AddCasesLink.Click();
         }
-
         public AddCasePage()
         {
             Map = new AddCasePageMap();

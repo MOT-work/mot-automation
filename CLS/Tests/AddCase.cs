@@ -12,7 +12,7 @@ namespace Tests
         [Test, Parallelizable, Category("AddCase")]
         public void Secretary_Save_case_without_fill_fields()
         {
-            Pages.Goto();
+           // Pages.Goto();
             Pages.AddCase.Goto();
             Pages.AddCase.SaveCaseWithoutFill();
              Assert.That(Pages.AddCase.Map.CheckMandatoryField.Displayed);
@@ -33,9 +33,10 @@ namespace Tests
         [Test, Parallelizable, Category("AddCase")]
         public void Add_Case_As_Draft()
         {
-            Pages.Goto();
+           // Pages.Goto();
             Pages.AddCase.Goto();
-            Pages.AddCase.SaveCaseAsDraft("2", "7567", "3", "قضية 11");
+            Pages.AddCase.CloseCase();
+            //Pages.AddCase.SaveCaseAsDraft("2", "7567", "3", "قضية 11");
         }
          [Test, Parallelizable, Category("AddCase")]
         public void Close_Case()

@@ -1,5 +1,6 @@
 ﻿using System;
 using Framework.Selenium;
+using OpenQA.Selenium;
 
 namespace CLS.Pages
 {
@@ -14,11 +15,13 @@ namespace CLS.Pages
         {
             ViewCase = new ViewCasesPage();
             AddCase = new AddCasePage();
+            Goto();
         }
 
         public static void Goto()
         {
             Driver.Goto("https://stg-webapps.mot.gov.sa/CLS/Case");
+            Driver.Wait.Until(driver => !driver.FindElement(By.CssSelector("p.loadingTable")).Displayed);
             //Driver.Goto("https://watch.na.lolesports.com/standings");
             //Driver.Wait.Until(driver => ViewCase.Map.SearchTextbox.Displayed);
         }

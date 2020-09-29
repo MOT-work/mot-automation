@@ -13,15 +13,7 @@ namespace CLS.Pages
             Map = new CLSMenuMap();
         }
 
-        public void GotoAddCasePage()
-        {
-            //Map.Page1Link.Click();
-            //Map.ChoiceByName("LCS").Click();
-            
-            Thread.Sleep(4000);
-            Map.AddCasesLink.Click();
-        }
-
+       
         public void GotoViewCasesPage()
         {
            // Map.Page2Link.Click();
@@ -40,7 +32,8 @@ namespace CLS.Pages
 
 
         public Element ViewCasesLink => Driver.FindElement(By.XPath("//a[contains(@href,'/CLS/Case')]"), "View Cases Link");
-        public Element AddCasesLink => Driver.FindElement(By.LinkText("إضـافة قضيـة"), "Add Cases Link");
+       // public Element AddCasesLink => Driver.FindElement(By.LinkText("إضـافة قضيـة"), "Add Cases Link");
+        public Element AddCasesLink => Driver.FindElement(By.XPath("//a[contains(@href,'/CLS/Case/Create')]"), "Add Cases Link");
         public Element NotificationsLink => Driver.FindElement(By.CssSelector("//a[contains(@href,'/CLS/Notifications')]"), "Notifications Link");
         public Element UpcommingAppointmentsLink => Driver.FindElement(By.CssSelector("//a[contains(@href,'/CLS/Session/UpcomingAppointment')]"), "Upcoming Appointments Link");
         public Element MissedAppointmentsLink => Driver.FindElement(By.CssSelector("//a[contains(@href,'/CLS/Session/PastAppointment')]"), "Missed Appointments Link");
