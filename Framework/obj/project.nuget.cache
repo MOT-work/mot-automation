@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tWWcaoItAkP/fX2qTxWQccxxmLZSIxQCKWswZ0M+b9yxX9NbFaaHxAkc6laHcyXm26zKuGBec3pzr5WgrGq6qQ==",
+  "dgSpecHash": "puuS9lvuJMC3nVOB3H6iJ6cp9Em9O92uasITTHy+238gfbO85FmfSgHBhbz5GPu8F8+JLui4AqF9qMqExZRwLw==",
   "success": true,
-  "projectFilePath": "d:\\mot-automation\\Framework\\Framework.csproj",
+  "projectFilePath": "D:\\mot-automation\\Framework\\Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\appium.webdriver\\4.2.0\\appium.webdriver.4.2.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",

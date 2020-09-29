@@ -1,5 +1,6 @@
 ﻿using Framework.Selenium;
 using OpenQA.Selenium;
+using SeleniumExtras.WaitHelpers;
 
 namespace CLS.Pages
 {
@@ -14,27 +15,18 @@ namespace CLS.Pages
 
         public void GotoAddCasePage()
         {
-            //Map.Page1Link.Click();
-            Map.ChoiceByName("LCS").Click();
-            //Map.AddCasesLink.Click();
+            Driver.Wait.Until(ExpectedConditions.ElementToBeClickable(Map.AddCasesLink.FoundBy));
+            Map.AddCasesLink.Click();
         }
 
         public void GotoViewCasesPage()
         {
-           // Map.Page2Link.Click();
-             Map.ChoiceByName("LEC").Click();
+            Driver.Wait.Until(ExpectedConditions.ElementToBeClickable(Map.ViewCasesLink.FoundBy));
+            Map.ViewCasesLink.Click();
         }
     }
     public class CLSMenuMap
     {
-        public Element Page1Link => Driver.FindElement(By.CssSelector("a[href='/page1']"), "Cards Link");
-        public Element Page2Link => Driver.FindElement(By.CssSelector("a[href='/page2']"), "Deck Builder Link");
-
-        public Element ChoiceByName(string name) => Driver.FindElement(
-                by: By.XPath($"//div[@class='name' and text()='{name}']"),
-                elementName: $"{name} choice Filter");
-
-
         public Element ViewCasesLink => Driver.FindElement(By.XPath("//a[contains(@href,'/CLS/Case')]"), "View Cases Link");
         public Element AddCasesLink => Driver.FindElement(By.CssSelector("//a[contains(@href,'/CLS/Case/Create')]"), "Add Cases Link");
         public Element NotificationsLink => Driver.FindElement(By.CssSelector("//a[contains(@href,'/CLS/Notifications')]"), "Notifications Link");

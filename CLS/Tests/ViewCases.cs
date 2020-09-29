@@ -12,11 +12,7 @@ namespace Tests
         [Test, Parallelizable, Category("ViewCases")]
         public void Laywer_view_cases()
         {
-            Pages.Goto();
-            Pages.AddCase.Goto();
-            Pages.AddCase.ClickCard("Regular Season");
-            //Pages.AddCase.SaveCaseWithoutFill();
-            //Assert.That(Pages.ServiceStatus.ServiceOnline("Game"));
+           
         }
     }
 }

@@ -11,14 +11,15 @@ namespace Framework.Selenium
     {
         [ThreadStatic] static IWebDriver _driver;
 
-        [ThreadStatic] public static WebDriverWait Wait;
+        [ThreadStatic] public static Wait Wait;
 
         [ThreadStatic] public static WindowManager Window;
 
         public static void Init(string type, string browser, int setWait)
         {
             _driver = DriverFactory.Build(type, browser);
-            Wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(setWait));
+            //Wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(setWait));
+            Wait = new Wait(setWait);
             Window = new WindowManager();
             Window.Maximize();
         }

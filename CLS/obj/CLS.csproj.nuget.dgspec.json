@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\mot-automation\\CLS\\CLS.csproj": {}
+    "D:\\mot-automation\\CLS\\CLS.csproj": {}
   },
   "projects": {
-    "d:\\mot-automation\\CLS\\CLS.csproj": {
+    "D:\\mot-automation\\CLS\\CLS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\mot-automation\\CLS\\CLS.csproj",
+        "projectUniqueName": "D:\\mot-automation\\CLS\\CLS.csproj",
         "projectName": "CLS",
-        "projectPath": "d:\\mot-automation\\CLS\\CLS.csproj",
+        "projectPath": "D:\\mot-automation\\CLS\\CLS.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "d:\\mot-automation\\CLS\\obj\\",
+        "outputPath": "D:\\mot-automation\\CLS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "d:\\mot-automation\\Framework\\Framework.csproj": {
-                "projectPath": "d:\\mot-automation\\Framework\\Framework.csproj"
+              "D:\\mot-automation\\Framework\\Framework.csproj": {
+                "projectPath": "D:\\mot-automation\\Framework\\Framework.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "d:\\mot-automation\\Framework\\Framework.csproj": {
+    "D:\\mot-automation\\Framework\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\mot-automation\\Framework\\Framework.csproj",
+        "projectUniqueName": "D:\\mot-automation\\Framework\\Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "d:\\mot-automation\\Framework\\Framework.csproj",
+        "projectPath": "D:\\mot-automation\\Framework\\Framework.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "d:\\mot-automation\\Framework\\obj\\",
+        "outputPath": "D:\\mot-automation\\Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

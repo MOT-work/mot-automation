@@ -14,6 +14,7 @@ namespace Tests
         {
             Pages.Goto();
             Pages.AddCase.Goto();
+            Pages.AddCase.SaveCaseWithoutFill();
         }
 
         [Test, Parallelizable, Category("AddCase")]

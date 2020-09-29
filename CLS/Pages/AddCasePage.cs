@@ -21,29 +21,14 @@ namespace CLS.Pages
 
         public void SaveCaseWithoutFill()
         {
-           Map.Nerd("playoff").Click();
+           Map.save.Click();
   
-        }
-
-         public void ClickCard(string name)
-        {
-            Map.StageByName("LEC").Click();
-
         }
 
     }
 
     public class AddCasePageMap
     {
-        public Element SaveCaseButton => Driver.FindElement(By.Id("submit"));
-
-        public Element Nerd(string name) => Driver.FindElement(By.CssSelector($"a[href*='{name}']"), $"Nerd: {name}");
-
-        public Element StageByName(string v) => Driver.FindElement(
-            by: By.XPath($"//div[@class='stage-option' and text()='{v}']"),
-            elementName: $"{v} Stage");
-
-
         public Element dateBox => Driver.FindElement(By.Id("addCaseBI_CaseDateHijri"), "File Date");
         public Element CaseType => Driver.FindElement(By.Id("CaseType"), "Case Type");
         public Element number => Driver.FindElement(By.Id("addCaseBI_CaseRegisterationNumber"), "number");
