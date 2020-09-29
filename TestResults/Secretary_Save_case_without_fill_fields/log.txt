@@ -1,0 +1,7 @@
+Starting timestamp: 9/29/2020 1:12:55 PM
+Test: Secretary_Save_case_without_fill_fields
+[INFO]: Browser: chrome
+    [STEP]: Navigate to https://stg-webapps.mot.gov.sa/CLS/Case
+    [STEP]: Click Add Cases Link
+    [STEP]: Click save
+[INFO]: Close Browser
