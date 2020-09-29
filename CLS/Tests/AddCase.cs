@@ -22,6 +22,8 @@ namespace Tests
         {
             //Pages.Goto();
             Pages.AddCase.Goto();
+            Pages.AddCase.SaveCaseWithFillFields("14420212", "1", "12w3", "333e222", "1", 1, "string CaseSubject", "2", "1","الأحساء", "rt",  23);
+
         }
 
     }
